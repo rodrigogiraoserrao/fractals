@@ -1,5 +1,7 @@
 # Fractals
 
+![An image of a filled Julia set](imgs/julia_set_screenshot_2.png)
+
 This GH repository contains code used to generate the fractal images that can be found in my blog posts about [the Mandelbrot set](https://mathspp.com/blog/fractals-and-mandelbrot-set) and [the filled Julia Set](https://mathspp.com/blog/julia-set).
 
 For the Mandelbrot sets generated with `mandelbrotConstant` and `mandelbrotEvolutive`, clicking the screen will zoom in the fractal on that point.
