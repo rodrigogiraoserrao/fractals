@@ -1,8 +1,0 @@
-Grid ← {
-    ⍝ (centre (width height)) ← ⍺ gives the size of the grid in the complex plane.
-    ⍝ ⍵ gives the number of points per unit length.
-    (centre (w h)) ← ⍺
-    re ←      ⍵÷⍨⍳1+⌊w×⍵
-    im ← ⌽0J1×⍵÷⍨⍳1+⌊h×⍵
-    centre + ((w÷2)+0J1×h÷2) -⍨ im∘.+re
-}
