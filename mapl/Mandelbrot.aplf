@@ -1,0 +1,14 @@
+∇ i ← maxiter Mandelbrot grid
+    ;m ;_ ;cs ;_cs ;i ;F
+
+    _cs ← cs ← ,grid
+    m ← 1⍴⍨⍴cs
+    i ← 0⍴⍨⍴cs
+    F ← {⍺+⍵*2}
+    :For _ :In ⍳maxiter
+        (m/cs) ← _cs F⍥(m∘/) cs
+        (m/i) +← 1
+        (m/m) ← 2>|m/cs
+    :EndFor
+    i ⍴⍨← ⍴grid
+∇

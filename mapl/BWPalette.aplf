@@ -1,0 +1,4 @@
+BWPalette ← {
+    colours ← ⌊255×2*⍨⍵÷⍨⍳1+⍵
+    1⌽colours⍴⍨3,⍴colours
+}

@@ -1,0 +1,5 @@
+OneLiner ← {
+    ⍝ ⍵ is the size of the square in amount of points
+    F ← {⍺+⍵*2}
+    chars[⊃⌈(¯1+≢chars)×9÷⍨+/2>|F\9⍴⊂¯2J¯1.5+3×⊖⍉a∘.+0J1×a←⍵÷⍨⍳1+⍵]
+}
